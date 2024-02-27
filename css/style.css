@@ -1,0 +1,121 @@
+@media screen and (max-width: 991.98px) {
+
+    body {
+        background-image: url('../img/imagen.png');
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.5);
+        }
+
+    #uno{
+        text-align: center;
+        padding: 35px;
+    }
+    h1 {
+        color: #162b42; 
+        text-align: center;
+        font-size: 60px;
+        text-shadow: 3px 3px 6px rgba(2, 49, 86, 0.8);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+            
+    }
+    #dos {
+        background-color: #162b42; 
+        padding: 35px; 
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+
+
+    button {
+        display: block; 
+        width: 100%; 
+        margin-bottom: 10px; 
+        padding: 10px; 
+        font-size: 20px; 
+        border: none; 
+        background-color: #335f8e; 
+        color: #ffffff; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        transition: background-color 0.3s; 
+    }
+
+    button:hover {
+        background-color: #0056b3; 
+    }
+
+    #rangoResultado {
+        margin-top: 20px; 
+        padding: 10px; 
+        background-color: #f0f0f0; 
+        border-radius: 5px; 
+        text-align: center;
+        font-size: medium;
+        
+    }
+}
+      
+@media screen and (min-width: 992px) {
+
+     body {
+    background-image: url('../img/imagen.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    }
+
+    .container-fluid {
+        padding-top: 80px; 
+    }
+
+    #uno{
+        text-align: center;
+        padding: 35px;
+    }
+
+    h1 {
+        color: #162b42; 
+        text-align: center; 
+        font-size: 115px;
+        text-shadow: 3px 3px 6px rgba(2, 49, 86, 0.8); 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+            
+    }
+
+    #dos {
+        background-color: #162b42; 
+        padding: 20px; 
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        padding: 40px;
+    }
+
+    button {
+        display: block; 
+        width: 100%; 
+        margin-bottom: 10px; 
+        padding: 10px; 
+        font-size: 20px; 
+        border: none; 
+        background-color: #335f8e; 
+        color: #ffffff; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        transition: background-color 0.3s; 
+    }
+
+    button:hover {
+        background-color: #0056b3; 
+    }
+
+    #rangoResultado {
+        margin-top: 20px; 
+        padding: 10px; 
+        background-color: #f0f0f0; 
+        border-radius: 5px; 
+        text-align: center;
+        font-size: medium;
+        
+    }
+}
